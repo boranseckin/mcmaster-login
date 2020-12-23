@@ -52,7 +52,7 @@
         }
 
         // Mosaic
-        else if (url.indexOf('mosaic.mcmaster.ca/psp/prepprd/?cmd=login') > -1) {
+        else if (url.indexOf('mcmaster.ca/psp/prepprd/?cmd=login') > -1) {
             console.log('Mosaic');
             document.querySelector('#userid').value = username;
             document.querySelector('#pwd').value = password;

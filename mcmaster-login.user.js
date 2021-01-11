@@ -76,10 +76,10 @@
         else if (url.indexOf('loncapa.mcmaster.ca/adm/roles') > -1) {
             console.log('LONCAPA Select');
             try {
-                document.querySelector('body > form:nth-child(12) > table > tbody > tr:nth-child(2) > td.LC_roles_is > input[type=button]').click();
+                document.querySelector('body > form:nth-child(12) > table > tbody > tr:nth-child(4) > td.LC_roles_is > input[type=button]').click();
             } catch (error) {}
             try {
-                document.querySelector('body > form:nth-child(12) > table > tbody > tr:nth-child(2) > td.LC_roles_selected > input[type=button]').click();
+                document.querySelector('body > form:nth-child(12) > table > tbody > tr:nth-child(4) > td.LC_roles_selected > input[type=button]').click();
             } catch (error) {}
         }
         else if (url.indexOf('loncapa.mcmaster.ca/public/macphys/') > -1) {

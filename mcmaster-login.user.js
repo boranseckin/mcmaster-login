@@ -74,25 +74,25 @@
 
         // LONCAPA
         else if (url.indexOf('loncapa.mcmaster.ca/adm/roles') > -1) {
-            console.log('LONCAPA Select');
             try {
+                console.log('LONCAPA Login');
+                document.querySelector('#uname').value = username;
+                document.querySelector('body > div > div:nth-child(3) > div:nth-child(1) > form > input[type=password]:nth-child(9)').value = password;
+                document.querySelector('body > div > div:nth-child(3) > div:nth-child(1) > form > input[type=submit]:nth-child(15)').click();
+            } catch (error) {}
+
+            try {
+                console.log('LONCAPA Select');
                 document.querySelector('body > form:nth-child(12) > table > tbody > tr:nth-child(4) > td.LC_roles_is > input[type=button]').click();
             } catch (error) {}
             try {
+                console.log('LONCAPA Select');
                 document.querySelector('body > form:nth-child(12) > table > tbody > tr:nth-child(4) > td.LC_roles_selected > input[type=button]').click();
             } catch (error) {}
         }
         else if (url.indexOf('loncapa.mcmaster.ca/public/macphys/') > -1) {
             console.log('LONCAPA Content');
             document.querySelector('#LC_secondary_menu > li:nth-child(2) > a').click();
-        }
-        else if (url.indexOf('loncapa.mcmaster.ca/adm') > -1) {
-            console.log('LONCAPA Login');
-            try {
-                document.querySelector('#uname').value = username;
-                document.querySelector('body > div > div:nth-child(3) > div:nth-child(1) > form > input[type=password]:nth-child(9)').value = password;
-                document.querySelector('body > div > div:nth-child(3) > div:nth-child(1) > form > input[type=submit]:nth-child(15)').click();
-            } catch (error) {}
         }
 
         // Crowdmark

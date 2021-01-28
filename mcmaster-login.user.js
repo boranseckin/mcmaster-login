@@ -9,7 +9,7 @@
 // @match        https://cap.mcmaster.ca/mcauth/login.jsp?app_id=*&app_name=*
 // @match        https://sso.mcmaster.ca/*
 // @match        https://epprd.mcmaster.ca/*
-// @match        https://www.childsmath.ca/childsa/forms/main_login.php*
+// @match        https://www.childsmath.ca/*
 // @match        https://loncapa.mcmaster.ca/*
 // @match        https://app.crowdmark.com/sign-in
 // @match        https://login.echo360.ca/*
@@ -60,9 +60,23 @@
         }
 
         // Childsmath
+        else if (url.indexOf('childsmath.ca/childsa/forms/main_intro.php') > -1) {
+            return;
+        }
         else if (url.indexOf('childsmath.ca/childsa/forms/main_login') > -1) {
-            console.log('Childsmath');
+            console.log('Childsmath Login');
             document.querySelector('#submit').click();
+        }
+        else if (url.indexOf('childsmath.ca') > -1) {
+            console.log('Childsmath Press');
+            document.querySelector('body > div:nth-child(3) > font > a').click();
+        }
+
+        // Echo360
+        else if (url.indexOf('login.echo360.ca') > -1) {
+            console.log('Echo360');
+            document.querySelector('#email').value = email;
+            document.querySelector('#submitBtn').click();
         }
 
         // Echo360

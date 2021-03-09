@@ -97,7 +97,7 @@
 
             try {
                 console.log('LONCAPA Select');
-                document.querySelector('body > form:nth-child(12) > table > tbody > tr:nth-child(4) > td.LC_roles_is > input[type=button]').click();
+                document.querySelector('body > form:nth-child(12) > table > tbody > tr:nth-child(2) > td.LC_roles_is > input[type=button]').click();
             } catch (error) {}
             try {
                 console.log('LONCAPA Select');

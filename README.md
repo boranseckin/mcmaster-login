@@ -13,7 +13,7 @@ Being a student in McMaster (especially when everything is online) requires a lo
 - CrowdMark
 - OSCARplus
 
-Note that, to login most of the websites you will be redirected to either `cap.mcmaster.ca` or `sso.mcmaster.ca` to use the regular MacID login. Both of these websites are already automated, so if a your website is not on the list above but uses this method, it should work regardless.
+Note that, to login most of the websites you will be redirected to either `cap.mcmaster.ca` or `sso.mcmaster.ca` to use the regular MacID login. Both of these websites are already automated, so if a website is not on the list above but uses this method, it should work regardless.
 
 #### Disclaimer
 This script is not affiliated with any of the services above nor McMaster. Your credentials are stored locally by your extension and only used to fill the HTML forms.

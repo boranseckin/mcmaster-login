@@ -31,4 +31,4 @@ This script is not affiliated with any of the services above nor McMaster. Your 
 - Boran Seckin
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

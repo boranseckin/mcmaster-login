@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Login to McMaster websites with your Mac ID.
 // @author       Boran Seckin
-// @match        http://avenue.mcmaster.ca/
+// @match        https://avenue.mcmaster.ca/
 // @match        https://avenue.cllmcmaster.ca/d2l/login?sessionExpired=*&target=*
 // @match        https://cap.mcmaster.ca/mcauth/login.jsp?app_id=*&app_name=*
 // @match        https://sso.mcmaster.ca/*

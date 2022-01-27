@@ -18,7 +18,7 @@ Note that, to login most of the websites you will be redirected to either `cap.m
 I do not use all the websites, so if something doesn't work or you would like to add a new website, please let me know or make a pull request.
 
 #### Disclaimer
-This script is not affiliated with any of the services above nor McMaster University. Your credentials are stored locally by your extension and only used to fill the HTML forms.
+This script is not affiliated with any of the services above nor McMaster University. Your credentials are stored locally by your extension and only used to fill out HTML forms.
 
 ## Installation
 1. Install a compatible `Usercript` extension for your platform. I prefer using [Tampermonkey](https://www.tampermonkey.net/) on a Chromium browser but [here](https://github.com/OpenUserJs/OpenUserJS.org/wiki/Userscript-Beginners-HOWTO#how-do-i-get-going) is a list of options.

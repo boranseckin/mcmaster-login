@@ -2,7 +2,7 @@
 Automatically login to McMaster related websites with MacID using Userscript.
 
 ## Features
-Being a student in McMaster (especially when everything is online) requires a lot of repetitive loggin in to various websites, even with auto-fill. So I decided to automate this whole process. What this script does is, once you enter any of the predefined websites below, it will automatically login with your credentials as fast as possible. And the best part is that you don't have to do anything at all.
+Being a student in McMaster (especially when everything is online) requires a lot of repetitive logging in to various websites, even with auto-fill. So I decided to automate this whole process. What this script does is, once you enter any of the predefined websites below, it will automatically login with your credentials as fast as possible. And the best part is that you don't have to do anything at all.
 
 #### Supported Websites
 - Avenue
